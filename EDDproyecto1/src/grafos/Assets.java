@@ -1,6 +1,5 @@
 
 package grafos;
-
 public class Assets {
     public String getFileNameExtension(String fullName) {
         int dotIndex = fullName.lastIndexOf('.');
@@ -19,5 +18,3 @@ public class Assets {
         return true;
     }
 }
-
-    
